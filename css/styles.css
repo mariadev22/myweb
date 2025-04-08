@@ -1,11 +1,23 @@
+:root {
+    --color-base: ;
+    --color-base-dark: ;
+    --background-color-base: #f8f9fa;
+    --background-color-dark: #101418;
+    --color-dark: ;
+    --color-ligt: ;
+}
+
+
 * {
     box-sizing: border-box;
     min-width: 0;
     margin: 0;
 }
 
+html,
 body {
     min-height: 100dvh;
+    font-family: sans-serif;
 }
 
 h1,
